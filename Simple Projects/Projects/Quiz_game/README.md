@@ -15,5 +15,4 @@ A fun and interactive command-line Football Quiz game built with Python! Players
 
 ---
 
-## 📁 File Structure
 

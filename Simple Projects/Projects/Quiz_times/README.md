@@ -12,6 +12,3 @@ A simple and fun **command-line Math Quiz Game** built with Python. The player i
 - ❌ Counts number of incorrect attempts
 
 ---
-
-## 📁 File Structure
-

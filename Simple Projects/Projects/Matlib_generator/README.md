@@ -14,5 +14,4 @@ This is a Python-based Mad Libs Story Generator that reads a story from a `story
 
 ---
 
-## File Structure 📂
 

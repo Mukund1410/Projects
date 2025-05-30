@@ -15,5 +15,5 @@ This is a Python-based multiplayer dice game where players take turns rolling a 
 
 ---
 
-## 🗂 File Structure
+
 
