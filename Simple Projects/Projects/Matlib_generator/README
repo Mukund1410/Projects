@@ -1,55 +1,18 @@
-📝 Mad Libs Style Story Generator
-This Python script reads a story from a story.txt file, finds placeholders marked with angle brackets (e.g., <noun>, <verb>), and prompts the user to replace them with custom words. The updated story is then printed to the console.
+# Mad Libs Story Generator 📚🖋️
 
-📂 File Structure
-bash
-Copy
-Edit
-├── story.txt       # Text file containing the story with placeholders
-├── mad_libs.py     # Python script to run the Mad Libs generator
-🛠️ How It Works
-The script opens and reads story.txt.
+This is a Python-based Mad Libs Story Generator that reads a story from a `story.txt` file, identifies placeholders (like `<noun>`, `<verb>`, etc.), and prompts the user to replace them with custom inputs. The updated story is then displayed on the console.
 
-It scans the story for placeholders wrapped in < >.
+---
 
-It prompts the user to enter a replacement word for each unique placeholder.
+## Features ✨
 
-It replaces all instances of each placeholder in the story.
+- **Placeholder Detection**: Automatically finds placeholders wrapped in angle brackets (`< >`).
+- **Custom Input**: Prompts the user to enter words for each unique placeholder.
+- **Dynamic Replacement**: Replaces all instances of each placeholder with the user's input.
+- **Interactive Console Output**: Displays the updated story in the terminal.
+- **Modular Design**: Clean separation of logic for reading, replacing, and displaying.
 
-It prints the final story with the user inputs.
+---
 
-📄 Example
-story.txt content:
-css
-Copy
-Edit
-Once upon a time, there was a <adjective> <noun> who loved to <verb>.
-Output:
-arduino
-Copy
-Edit
-Enter the new word for <adjective> : brave
-Enter the new word for <noun> : knight
-Enter the new word for <verb> : explore
+## File Structure 📂
 
-Once upon a time, there was a brave knight who loved to explore.
-🧑‍💻 How to Run
-Make sure you have Python installed. Then, run the script with:
-
-bash
-Copy
-Edit
-python mad_libs.py
-Ensure that story.txt is in the same directory as your script.
-
-🐞 Note
-Placeholders must be wrapped in < >, like <noun>, to be detected.
-
-Each unique placeholder will be prompted once, and the replacement will apply to all its instances.
-
-✅ To Do
-Add support for saving the final story to a new file.
-
-Handle nested or malformed brackets.
-
-Improve input prompts with part-of-speech hints.
